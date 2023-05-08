@@ -105,7 +105,7 @@ class TransformDocx:
                 self.w_docx_content(doc, ['来源：' + item['source']])
             except TypeError:
                 self.w_docx_content(doc, ['来源：'])
-            doc.save(self.path + '大公旅讯' + '/' + docname + '.docx')
+            doc.save(self.path + '自定义文件夹' + '/' + docname + '.docx')
 
     def w_docx_title(self, document, art_title):
         """
