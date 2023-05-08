@@ -219,5 +219,5 @@ class TransformDocx:
 
 
 if __name__ == '__main__':
-    transformdocx = TransformDocx('mongodb://localhost:27017/', 'takungpao', 'travelnews', 'F:/takungpao/')
+    transformdocx = TransformDocx('mongodb://localhost:27017/', 'demowebsite', 'news', 'F:/demowebsite/')
     transformdocx.main()
