@@ -82,8 +82,8 @@ ITEM_PIPELINES = {
     "fspider.pipelines.FspiderPipeline": 300,
 }
 
-IMAGES_STORE = 'F:/takungpao'
-FILES_STORE = 'F:/takungpao/videos'
+IMAGES_STORE = 'F:/demowebsite'
+FILES_STORE = 'F:/demowebsite/videos'
 
 IMAGES_EXCLUDED_EXTENSIONS = []
 
@@ -116,5 +116,5 @@ FEED_EXPORT_ENCODING = "utf-8"
 
 MONGODB_SERVER = 'localhost'
 MONGODB_PORT = 27017
-MONGODB_DB = 'takungpao'
-MONGODB_COLLECTION = 'travel_video_story'
+MONGODB_DB = 'demowebsite'
+MONGODB_COLLECTION = 'news'
